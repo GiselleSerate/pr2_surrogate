@@ -22,3 +22,9 @@ src/arm_mover_node.cpp
 src/terminator_eye.cpp
 src/terminator_eye.h
 src/terminator_eye_node.cpp
+
+15.12.28 Edited Files: 
+launch/desktop.launch
+launch/robot.launch
+CMakeLists.txt (Deleted from line 21 on)
+manifest.xml
