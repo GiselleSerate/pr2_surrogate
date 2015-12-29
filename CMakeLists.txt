@@ -18,20 +18,3 @@ rosbuild_add_executable(head_pointer
 target_link_libraries(head_pointer
    ${Boost_LIBRARIES}
 )
-
-rosbuild_add_executable(arm_mover
-  src/arm_mover_node.cpp
-  src/arm_mover.cpp
-  )
-target_link_libraries(arm_mover
-   ${Boost_LIBRARIES}
-)
-
-rosbuild_add_executable(terminator_eye
-  src/terminator_eye_node.cpp
-  src/terminator_eye.cpp
-  )
-target_link_libraries(terminator_eye
-   ${Boost_LIBRARIES}
-)
-
